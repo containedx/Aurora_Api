@@ -8,6 +8,9 @@ function App() {
     <>
       <LandingPage/>
       <KpIndex/>
+      <KpIndex/>
+      <KpIndex/>
+      <KpIndex/>
     </>
   )
 }

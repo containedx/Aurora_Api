@@ -1,13 +1,12 @@
-.landing-container {
+.landing-wrapper {
   position: relative;
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 150vh;
   background-color: black;
 }
 
 .landing-video {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -15,9 +14,6 @@
 
 .landing-content {
   position: relative;
-  z-index: 1;
-  color: #fff;
   text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
+  padding-top: 40vh;
 }
